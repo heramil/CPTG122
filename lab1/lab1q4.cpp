@@ -34,7 +34,7 @@ int main() {
 
     for (int i = 0; i < 30; i++) {
         if (lot.space[i].licensePlate == "") {
-            cout << lot.space[i].spaceNumber << " ";
+            cout << lot.space[i].spaceNumber << " is available" << endl;
         }
     }
     cout << "\n";
