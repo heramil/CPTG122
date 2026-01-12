@@ -26,9 +26,9 @@ int main() {
         lot.space[i].licensePlate = "";
     }
 
-    lot.space[2]= {3,"CA12345"};
-    lot.space[7]= {8, "TX88888"};
-    lot.space[14]= {15, "NY54321"};
+    lot.space[2] = {3, "CA12345"};
+    lot.space[7] = {8, "TX88888"};
+    lot.space[14] = {15, "NY54321"};
 
     cout << "Available Parking Space Numbers:" << endl;
 
