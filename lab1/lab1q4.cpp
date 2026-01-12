@@ -1,6 +1,6 @@
 /*
 PROFESSOR: Dr. Fuhao Li
-PROGRAM: Parking Structures
+PROGRAM: Parking Lot
 AUTHOR: Prakash Heramil
 ID: 944801
 LAST MODIFICATION: 01/10/2026 15:21 P.M.
