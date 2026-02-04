@@ -8,9 +8,7 @@ private:
     double balance;
 
 public:
-    BankAccount(int accNum = 0, double bal = 0.0)
-        : accountNumber(accNum), balance(bal) {
-    }
+    BankAccount(int accNum = 0, double bal = 0.0) : accountNumber(accNum), balance(bal) {}
 
     BankAccount operator+(double amount) const {
         return BankAccount(accountNumber, balance + amount);
