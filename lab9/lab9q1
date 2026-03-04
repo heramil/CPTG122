@@ -1,0 +1,21 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+    ofstream outFile("numbers.txt");
+
+    if (!outFile) {
+        cout << "Error: Could not open numbers.txt for writing." << endl;
+        return 1;
+    }
+
+    outFile << 100 << "\n";
+    outFile << 200 << "\n";
+    outFile << 300 << "\n";
+
+    outFile.close();
+    cout << "numbers.txt created and written successfully." << endl;
+
+    return 0;
+}
