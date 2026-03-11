@@ -1,0 +1,25 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    vector<int> data;
+    int temp;
+    int sum = 0;
+
+    for (int i = 0; i < 5; i++) {
+        cout << "Enter integer for d[" << i + 1 << "]: ";
+        if (cin >> temp) data.push_back(temp);
+    }
+    
+    cout << "Vector contents: ";
+    for (int val : data) cout << val << " ";
+
+    for (const int& d : data) {
+        sum += d;
+    }
+    cout << "\n";
+    cout << "Sum of all the numbers is: " << sum << endl;
+
+    return 0;
+}
