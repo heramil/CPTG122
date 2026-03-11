@@ -1,0 +1,19 @@
+#include <iostream>
+#include <queue>
+using namespace std;
+
+int main() {
+    queue<string> line;
+    line.push("Tom");
+    line.push("Lisa");
+    line.push("David");
+    line.push("Emma");
+
+    while (!line.empty()) {
+        cout << "Now serving: " << line.front() << endl;
+        line.pop();
+    }
+    cout << "All passengers checked in!" << endl << endl;
+
+    return 0;
+}
