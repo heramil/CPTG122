@@ -1,0 +1,15 @@
+#include <iostream>
+#include <queue>
+using namespace std;
+
+int main() {
+    queue<string> printer;
+    printer.push("report.pdf");
+    printer.push("homework.docx");
+    printer.push("image.png");
+
+    cout << "Currently printing: " << printer.front() << endl;
+    printer.pop();
+    cout << "Next document to print: " << printer.front() << endl << endl;
+    return 0;
+}
