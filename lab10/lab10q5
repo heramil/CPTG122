@@ -1,0 +1,17 @@
+#include <iostream>
+#include <stack>
+using namespace std;
+
+int main() {
+    stack<string> history;
+
+    history.push("google.com");
+    history.push("youtube.com");
+    history.push("github.com");
+
+    cout << history.top() << endl;
+    history.pop();
+    cout << history.top() << endl;
+
+    return 0;
+}
