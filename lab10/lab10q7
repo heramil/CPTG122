@@ -1,0 +1,16 @@
+#include <iostream>
+#include <stack>
+using namespace std;
+
+int main() {
+    stack<int> plates;
+    plates.push(1);
+    plates.push(2);
+    plates.push(3);
+    plates.push(4);
+
+    cout << "Top plate: " << plates.top() << endl;
+    plates.pop();
+    cout << "New top plate: " << plates.top() << endl << endl;
+    return 0;
+}
