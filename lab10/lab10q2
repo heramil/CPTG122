@@ -1,0 +1,17 @@
+#include <iostream>
+#include <stack>
+using namespace std;
+
+int main() {
+    stack<int> stq;
+
+    stq.push(10);
+    stq.push(20);
+    stq.push(30);
+
+    cout << stq.top() << endl;
+    stq.pop();
+    cout << stq.top() << endl;
+
+    return 0;
+}
