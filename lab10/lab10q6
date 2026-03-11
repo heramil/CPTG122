@@ -1,0 +1,27 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    vector<int> temps;
+    int tempSum = 0;
+    temps.push_back(72);
+    temps.push_back(75);
+    temps.push_back(78);
+    temps.push_back(74);
+    temps.push_back(73);
+
+    for (const int& t : temps) {
+        cout << "Temperature: " << t << endl;
+    }
+
+    cout << "\n";
+
+    for (const int& t : temps) {
+        tempSum += t;
+    }
+    
+    cout << "Average Temperature: " << tempSum / 5 << endl;
+
+    return 0;
+}
